@@ -1,0 +1,19 @@
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.b-light{
+  background-color: #e3f2fd
+}
+
+.df{
+  display: flex;
+}
+.pr{
+  padding-right: 1%;
+}
+.pr-2{
+  padding-right: 2%;
+}
+fr{
+  float: right;
+}

@@ -1,0 +1,79 @@
+
+
+
+<br>
+
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card b-light">
+      <div class="card-body">
+        <h5 class="card-title">Grade</h5>
+        <ul *ngFor="let g of grade">
+          <li (click)="subjects(g)">{{g}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card b-light">
+      <div class="card-body">
+        <h5 class="card-title">Subject {{subjectValue}}</h5>
+        <ul *ngFor="let s of subject">
+          <li (click)="subject(s)">{{s}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card b-light">
+      <div class="card-body">
+        <h5 class="card-title">Subjects</h5>
+        <ul *ngFor="let s of subject">
+          <li (click)="subject(s)">{{s}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card">
+      <div class="card-body">
+        <table class="table table-light table-hover">
+          <thead >
+            <tr>
+              <th class="b-light" scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td><img src="../assets/image2vector.svg" width="40px" height="35px"></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
